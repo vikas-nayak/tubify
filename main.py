@@ -18,7 +18,7 @@ app.add_middleware(
 DOWNLOAD_DIR = "downloads"
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
 
-@app.get("/download")
+@app.get("/")
 async def download_video(url: str, format: str = Query("mp4", regex="^(mp4|mp3)$")):
     """Download a YouTube video as MP4 or MP3."""
     audio_only = format == "mp3"
