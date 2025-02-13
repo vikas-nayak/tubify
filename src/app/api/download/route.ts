@@ -7,7 +7,7 @@ export async function GET(req: Request) {
     return new Response(JSON.stringify({ error: "Missing URL" }), { status: 400 });
   }
 
-  const apiUrl = `http://localhost:8000/download?url=${encodeURIComponent(url)}&format=${format}`;
+  const apiUrl = `https://tubify-backend.onrender.com/download?url=${encodeURIComponent(url)}&format=${format}`;
   const response = await fetch(apiUrl);
 
   if (!response.ok) {
