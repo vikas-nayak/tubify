@@ -48,4 +48,4 @@ async def download_video(url: str, format: str = Query("mp4", regex="^(mp4|mp3)$
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=1000)
