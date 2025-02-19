@@ -20,7 +20,7 @@ export default function page() {
       description: (
         <>
           Export cookies using `Get cookies.txt LOCALLY` chrome extension or do{" "}
-          <Link href="http://localhost:3000/steps" className="text-blue-400 underline">this</Link>
+          <Link href="/steps" className="text-blue-400 underline">this</Link>
         </>
       ),
     },
