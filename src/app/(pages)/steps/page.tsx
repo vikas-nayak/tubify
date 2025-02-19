@@ -17,7 +17,7 @@ const steps = [
     code: `(function() {
     let cookies = document.cookie.split("; ");
     let output = "# Netscape HTTP Cookie File\\n";
-    let domain = document.domain.startsWith(".") ? document.domain : \`.${document.domain}\`;
+    let domain = document.domain.startsWith(".");
 
     cookies.forEach(cookie => {
         let [name, value] = cookie.split("=");

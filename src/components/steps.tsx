@@ -1,7 +1,8 @@
+"use client";
 import { Card, CardContent } from "@/components/ui/card";
 import Link from "next/link";
 
-export default function HowToUse() {
+export default function page() {
   const steps = [
     {
       title: "Step 1",
@@ -18,7 +19,7 @@ export default function HowToUse() {
       title: "Step 2",
       description: (
         <>
-          Export cookies using 'Get cookies.txt LOCALLY' chrome extension or do{" "}
+          Export cookies using `Get cookies.txt LOCALLY` chrome extension or do{" "}
           <Link href="http://localhost:3000/steps" className="text-blue-400 underline">this</Link>
         </>
       ),

@@ -46,7 +46,7 @@ export default function Hero() {
       const fileUrl = URL.createObjectURL(blob);
       setDownloadLink(fileUrl);
       toast.success("Downloaded successfully.");
-    } catch (error) {
+    } catch{
       toast.error("Failed to download.");
     } finally {
       setLoading(false);
