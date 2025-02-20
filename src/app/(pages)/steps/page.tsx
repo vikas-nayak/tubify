@@ -46,7 +46,7 @@ export default function Page() {
 
   return (
     <div className="w-full flex flex-col items-center py-16">
-      <h2 className="text-3xl font-bold text-white mb-6">How to Export Cookies (Netscape Format)</h2>
+      <h2 className="text-3xl font-bold text-white mb-6 text-center">How to Export Cookies (Netscape Format)</h2>
 
 
       <div className="w-full max-w-3xl mb-8 p-4">
