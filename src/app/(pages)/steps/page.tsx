@@ -49,7 +49,7 @@ export default function Page() {
       <h2 className="text-3xl font-bold text-white mb-6">How to Export Cookies (Netscape Format)</h2>
 
 
-      <div className="w-full max-w-3xl mb-8">
+      <div className="w-full max-w-3xl mb-8 p-4">
         <Image
           src="/image.png"
           alt="Developer Tools Screenshot"
